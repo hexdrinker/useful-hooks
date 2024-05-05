@@ -40,6 +40,10 @@ function App() {
       name: 'useFadeIn',
       link: '/use-fade-in',
     },
+    {
+      name: 'useNetwork',
+      link: '/use-network',
+    },
   ]
 
   return (
