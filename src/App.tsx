@@ -17,6 +17,10 @@ function App() {
       name: 'useTitle',
       link: '/use-title',
     },
+    {
+      name: 'useClick',
+      link: '/use-click',
+    },
   ]
 
   return (

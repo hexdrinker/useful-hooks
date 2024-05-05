@@ -6,6 +6,7 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import UseInput from './pages/useInput.tsx'
 import UseTabs from './pages/useTabs.tsx'
 import UseTitle from './pages/useTitle.tsx'
+import UseClick from './pages/useClick.tsx'
 
 const router = createBrowserRouter([
   {
@@ -23,6 +24,10 @@ const router = createBrowserRouter([
   {
     path: '/use-title',
     element: <UseTitle />,
+  },
+  {
+    path: '/use-click',
+    element: <UseClick />,
   },
 ])
 
