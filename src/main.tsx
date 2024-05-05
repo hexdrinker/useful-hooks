@@ -5,6 +5,7 @@ import './index.css'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import UseInput from './pages/useInput.tsx'
 import UseTabs from './pages/useTabs.tsx'
+import UseTitle from './pages/useTitle.tsx'
 
 const router = createBrowserRouter([
   {
@@ -18,6 +19,10 @@ const router = createBrowserRouter([
   {
     path: '/use-tabs',
     element: <UseTabs />,
+  },
+  {
+    path: '/use-title',
+    element: <UseTitle />,
   },
 ])
 

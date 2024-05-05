@@ -13,6 +13,10 @@ function App() {
       name: 'useTabs',
       link: '/use-tabs',
     },
+    {
+      name: 'useTitle',
+      link: '/use-title',
+    },
   ]
 
   return (
