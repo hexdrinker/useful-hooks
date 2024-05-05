@@ -7,6 +7,8 @@ import UseInput from './pages/useInput.tsx'
 import UseTabs from './pages/useTabs.tsx'
 import UseTitle from './pages/useTitle.tsx'
 import UseClick from './pages/useClick.tsx'
+import UseConfirm from './pages/useConfirm.tsx'
+import UsePreventLeave from './pages/usePreventLeave.tsx'
 
 const router = createBrowserRouter([
   {
@@ -28,6 +30,14 @@ const router = createBrowserRouter([
   {
     path: '/use-click',
     element: <UseClick />,
+  },
+  {
+    path: '/use-confirm',
+    element: <UseConfirm />,
+  },
+  {
+    path: '/use-prevent-leave',
+    element: <UsePreventLeave />,
   },
 ])
 

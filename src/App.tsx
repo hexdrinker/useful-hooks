@@ -4,7 +4,7 @@ import './App.css'
 import { Link } from 'react-router-dom'
 
 function App() {
-  const hooks = [
+  const hooks1 = [
     {
       name: 'useInput',
       link: '/use-input',
@@ -20,6 +20,14 @@ function App() {
     {
       name: 'useClick',
       link: '/use-click',
+    },
+    {
+      name: 'useConfirm',
+      link: '/use-confirm',
+    },
+    {
+      name: 'usePreventLeave',
+      link: '/use-prevent-leave',
     },
   ]
 
@@ -39,8 +47,9 @@ function App() {
       </div>
       <h1>Useful React Hooks</h1>
       <div className='card'>
-        {hooks.map((hook, index) => (
+        {hooks1.map((hook, index) => (
           <Link
+            className='hook'
             to={hook.link}
             key={index}
           >
