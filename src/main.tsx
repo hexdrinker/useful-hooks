@@ -10,6 +10,7 @@ import UseClick from './pages/useClick.tsx'
 import UseConfirm from './pages/useConfirm.tsx'
 import UsePreventLeave from './pages/usePreventLeave.tsx'
 import UseBeforeLeave from './pages/useBeforeLeave.tsx'
+import UseFadeIn from './pages/useFadeIn.tsx'
 
 const router = createBrowserRouter([
   {
@@ -43,6 +44,10 @@ const router = createBrowserRouter([
   {
     path: '/use-before-leave',
     element: <UseBeforeLeave />,
+  },
+  {
+    path: '/use-fade-in',
+    element: <UseFadeIn />,
   },
 ])
 

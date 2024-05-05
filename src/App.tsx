@@ -36,6 +36,10 @@ function App() {
       name: 'useBeforeLeave',
       link: '/use-before-leave',
     },
+    {
+      name: 'useFadeIn',
+      link: '/use-fade-in',
+    },
   ]
 
   return (
