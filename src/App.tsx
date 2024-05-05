@@ -44,6 +44,10 @@ function App() {
       name: 'useNetwork',
       link: '/use-network',
     },
+    {
+      name: 'useScroll',
+      link: '/use-scroll',
+    },
   ]
 
   return (
