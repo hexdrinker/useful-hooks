@@ -31,6 +31,13 @@ function App() {
     },
   ]
 
+  const hooks2 = [
+    {
+      name: 'useBeforeLeave',
+      link: '/use-before-leave',
+    },
+  ]
+
   return (
     <>
       <div>
@@ -48,6 +55,17 @@ function App() {
       <h1>Useful React Hooks</h1>
       <div className='card'>
         {hooks1.map((hook, index) => (
+          <Link
+            className='hook'
+            to={hook.link}
+            key={index}
+          >
+            {hook.name}
+          </Link>
+        ))}
+      </div>
+      <div className='card'>
+        {hooks2.map((hook, index) => (
           <Link
             className='hook'
             to={hook.link}

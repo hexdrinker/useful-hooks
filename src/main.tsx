@@ -9,6 +9,7 @@ import UseTitle from './pages/useTitle.tsx'
 import UseClick from './pages/useClick.tsx'
 import UseConfirm from './pages/useConfirm.tsx'
 import UsePreventLeave from './pages/usePreventLeave.tsx'
+import UseBeforeLeave from './pages/useBeforeLeave.tsx'
 
 const router = createBrowserRouter([
   {
@@ -38,6 +39,10 @@ const router = createBrowserRouter([
   {
     path: '/use-prevent-leave',
     element: <UsePreventLeave />,
+  },
+  {
+    path: '/use-before-leave',
+    element: <UseBeforeLeave />,
   },
 ])
 
