@@ -15,6 +15,7 @@ import UseNetwork from './pages/useNetwork.tsx'
 import UseScroll from './pages/useScroll.tsx'
 import UseNotification from './pages/useNotification.tsx'
 import UseFullscreen from './pages/useFullscreen.tsx'
+import UseAxios from './pages/useAxios.tsx'
 
 const router = createBrowserRouter([
   {
@@ -68,6 +69,10 @@ const router = createBrowserRouter([
   {
     path: '/use-notification',
     element: <UseNotification />,
+  },
+  {
+    path: '/use-axios',
+    element: <UseAxios />,
   },
 ])
 

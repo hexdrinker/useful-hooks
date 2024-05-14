@@ -56,6 +56,10 @@ function App() {
       name: 'useNotification',
       link: '/use-notification',
     },
+    {
+      name: 'useAxios',
+      link: '/use-axios',
+    },
   ]
 
   return (
