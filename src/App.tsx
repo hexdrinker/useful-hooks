@@ -49,6 +49,10 @@ function App() {
       link: '/use-scroll',
     },
     {
+      name: 'useFullscreen',
+      link: '/use-fullscreen',
+    },
+    {
       name: 'useNotification',
       link: '/use-notification',
     },

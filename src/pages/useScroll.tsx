@@ -1,4 +1,3 @@
-import React from 'react'
 import { useScroll } from '../hooks/useScroll'
 
 export default function useScrollPage() {
