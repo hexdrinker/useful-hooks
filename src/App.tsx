@@ -48,6 +48,10 @@ function App() {
       name: 'useScroll',
       link: '/use-scroll',
     },
+    {
+      name: 'useNotification',
+      link: '/use-notification',
+    },
   ]
 
   return (

@@ -13,6 +13,7 @@ import UseBeforeLeave from './pages/useBeforeLeave.tsx'
 import UseFadeIn from './pages/useFadeIn.tsx'
 import UseNetwork from './pages/useNetwork.tsx'
 import UseScroll from './pages/useScroll.tsx'
+import UseNotification from './pages/useNotification.tsx'
 
 const router = createBrowserRouter([
   {
@@ -58,6 +59,10 @@ const router = createBrowserRouter([
   {
     path: '/use-scroll',
     element: <UseScroll />,
+  },
+  {
+    path: '/use-notification',
+    element: <UseNotification />,
   },
 ])
 
